@@ -1,0 +1,33 @@
+.header_pad{
+  padding: 0 20px;
+  
+}
+.content{
+  /* min-height: calc(100vh- 70px- 64px);
+   */
+  min-height: 82vh;
+  background-color: rgba(101,132,231, 0.9);
+}
+.Movies{
+ 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+  gap: 1rem;
+}
+.loader{
+  text-align: center;
+}
+.btn-out{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+label:not(:last-child){
+  margin-right: 1rem;
+}
+.nav,.foot{
+  background: #4a148c;
+}
+.mother{
+  background: rgba(101,132,231, 0.9);
+}
